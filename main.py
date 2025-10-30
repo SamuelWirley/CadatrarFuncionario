@@ -14,7 +14,7 @@ def cadastroFuncionario():
 
 def listasFuncionario():
     print("\n--- Lista ---")
-    if not Funcionario:
+    if not Funcionarios:
         print("Nenhum funcionário")
         return
     for func in Funcionarios:
@@ -32,7 +32,7 @@ def buscarFuncionario():
     else:
         print("Não encontrado!")
 
-def calcularMedSalario():
+def calculaMedSalario():
     print("\n--- Média Salarial ---")
     if not Funcionarios:
         print("Nenhum funcionário para calcular")
